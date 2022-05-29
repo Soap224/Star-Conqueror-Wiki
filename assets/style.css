@@ -1,0 +1,63 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#game { 
+}
+
+#header {
+    height: 50px;
+    background-color: black;
+    
+}
+
+#nav {
+    display: inline-block;
+    /* height: ; */
+}
+
+#nav li{
+    display: inline-block;
+    position:relative;
+    
+    /* viết trên 1 dòng */
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 12px;
+    display: block;
+    text-transform:capitalize
+    /* bỏ gạch chân của thẻ a */
+}
+
+#nav li:hover a{
+    background-color: #ccc;
+}
+
+#header #button-dowload {
+    height: 50px;
+    /* width: 50px; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: blue;
+ 
+}
+
+#header #button-dowload a{
+    color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+    padding: 0px 12px;
+}
