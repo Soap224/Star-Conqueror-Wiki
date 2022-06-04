@@ -45,19 +45,24 @@ html {
     background-color: #ccc;
 }
 
-#header #button-dowload {
+#header #btn-dowload {
     height: 50px;
     /* width: 50px; */
     position: absolute;
     right: 0px;
     top: 0px;
-    background-color: blue;
- 
+    background: rgb(22, 6, 243);
+   
 }
 
-#header #button-dowload a{
+#header #btn-dowload a{
     color: #fff;
     text-decoration: none;
     text-transform:capitalize;
     padding: 0px 12px;
+}  
+
+#header #btn-dowload:hover{
+    background-color: blue;
+    color: #fff;
 }
