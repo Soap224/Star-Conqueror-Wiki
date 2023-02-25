@@ -1,3 +1,7 @@
+/*xóa bỏ nút đóng nav*/
+#close-nav{
+  display: none; 
+}
 #header {
     height: 50px;
     background-color: black;
@@ -69,4 +73,20 @@
 #header #btn-dowload:hover{
     background-color: blue;
     color: #fff;
+}
+
+@media screen and (min-width: 40px) and (max-width: 600px){
+  #close-nav{
+    display:block;
+  }
+  #header {
+    height: 100%;
+  }
+  #nav li{
+    display: inline;
+  }
+
+}
+.close {
+    display: none !important;
 }
