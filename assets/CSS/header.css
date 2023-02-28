@@ -76,6 +76,9 @@
 }
 
 @media screen and (min-width: 40px) and (max-width: 600px){
+  #header#logo{
+    display:none;
+  }
   #close-nav{
     display:block;
   }
